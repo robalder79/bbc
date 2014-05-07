@@ -18,14 +18,14 @@
 <header>
 	<nav>
     	<ul>
-        	<li><img src="images/bbc-logo.png" alt="logo" /></li>
+        	<li id="logo"><img src="images/bbc-logo.png" alt="logo" /></li>
             <li>
             	<ul>
-                	<li><a>Refresh</a></li>
-                    <li><a>share</a></li>
-                    <li><a>Website</a></li>
-                    <li><a>Edit</a></li>
-                    <li><a>Settings</a></li>
+                	<li id="refresh" class="menuItem"></li>
+                    <li id="share" class="menuItem"></li>
+                    <li id="web" class="menuItem"></li>
+                    <li id="edit" class="menuItem"></li>
+                    <li id="settings" class="menuItem"></li>
                 </ul>
             </li>
         </ul>
@@ -34,319 +34,42 @@
 
 <section id="mainContent">
 	<div id="headlines" class="panel">
-    	<div id="topStories" class="category activeCategory">
-        	<h3>Top Stories</h3>
-        	<div class="slider">
-                <ul><a href="#">
-                    <li>pic</li>
-                    <li>headline</li></a>
-                </ul>
-                <ul><a href="#">
-                    <li>pic</li>
-                    <li>headline</li></a>
-                </ul>
-                <ul><a href="#">
-                    <li>pic</li>
-                    <li>headline</li></a>
-                </ul>
-                <ul><a href="#">
-                    <li>pic</li>
-                    <li>headline</li></a>
-                </ul>
-                <ul><a href="#">
-                    <li>pic</li>
-                    <li>headline</li></a>
-                </ul>
-                <ul><a href="#">
-                    <li>pic</li>
-                    <li>headline</li></a>
-                </ul>
-                <ul><a href="#">
-                    <li>pic</li>
-                    <li>headline</li></a>
-                </ul>
-                <ul><a href="#">
-                    <li>pic</li>
-                    <li>headline</li></a>
-                </ul>
-            </div>
+    	<h3>Top Stories</h3>
+    	<div id="top_stories" class="category">
+        	<div class="slider"></div>
         </div>
-        <div id="US-Canada" class="category">
-        	<h3>US &amp; Canada</h3>
-        	<div class="slider">
-                <ul>
-                    <li>pic</li>
-                    <li>headline</li>
-                </ul>
-                <ul>
-                    <li>pic</li>
-                    <li>headline</li>
-                </ul>
-                <ul>
-                    <li>pic</li>
-                    <li>headline</li>
-                </ul>
-                <ul>
-                    <li>pic</li>
-                    <li>headline</li>
-                </ul>
-                <ul>
-                    <li>pic</li>
-                    <li>headline</li>
-                </ul>
-                <ul>
-                    <li>pic</li>
-                    <li>headline</li>
-                </ul>
-                <ul>
-                    <li>pic</li>
-                    <li>headline dsadasds</li>
-                </ul>
-            </div>
-        </div>
-        <div id="technology" class="category">
-        	<h3>Technology</h3>
-        	<div class="slider">
-                <ul>
-                    <li>pic</li>
-                    <li>headline</li>
-                </ul>
-                <ul>
-                    <li>pic</li>
-                    <li>headline</li>
-                </ul>
-                <ul>
-                    <li>pic</li>
-                    <li>headline</li>
-                </ul>
-                <ul>
-                    <li>pic</li>
-                    <li>headline</li>
-                </ul>
-                <ul>
-                    <li>pic</li>
-                    <li>headline</li>
-                </ul>
-                <ul>
-                    <li>pic</li>
-                    <li>headline</li>
-                </ul>
-                <ul>
-                    <li>pic</li>
-                    <li>headline dsadasds</li>
-                </ul>
-            </div>
-        </div>
-        <div id="science" class="category">
-        	<h3>Science</h3>
-        	<div class="slider">
-                <ul>
-                    <li>pic</li>
-                    <li>headline</li>
-                </ul>
-                <ul>
-                    <li>pic</li>
-                    <li>headline</li>
-                </ul>
-                <ul>
-                    <li>pic</li>
-                    <li>headline</li>
-                </ul>
-                <ul>
-                    <li>pic</li>
-                    <li>headline</li>
-                </ul>
-                <ul>
-                    <li>pic</li>
-                    <li>headline</li>
-                </ul>
-                <ul>
-                    <li>pic</li>
-                    <li>headline</li>
-                </ul>
-                <ul>
-                    <li>pic</li>
-                    <li>headline dsadasds</li>
-                </ul>
-            </div>
-        </div>
-        <div id="europe" class="category">
-        	<h3>Europe</h3>
-        	<div class="slider">
-                <ul>
-                    <li>pic</li>
-                    <li>headline</li>
-                </ul>
-                <ul>
-                    <li>pic</li>
-                    <li>headline</li>
-                </ul>
-                <ul>
-                    <li>pic</li>
-                    <li>headline</li>
-                </ul>
-                <ul>
-                    <li>pic</li>
-                    <li>headline</li>
-                </ul>
-                <ul>
-                    <li>pic</li>
-                    <li>headline</li>
-                </ul>
-                <ul>
-                    <li>pic</li>
-                    <li>headline</li>
-                </ul>
-                <ul>
-                    <li>pic</li>
-                    <li>headline dsadasds</li>
-                </ul>
-            </div>
-        </div>
+        <h3>uk</h3>
         <div id="uk" class="category">
-        	<h3>UK</h3>
-        	<div class="slider">
-                <ul>
-                    <li>pic</li>
-                    <li>headline</li>
-                </ul>
-                <ul>
-                    <li>pic</li>
-                    <li>headline</li>
-                </ul>
-                <ul>
-                    <li>pic</li>
-                    <li>headline</li>
-                </ul>
-                <ul>
-                    <li>pic</li>
-                    <li>headline</li>
-                </ul>
-                <ul>
-                    <li>pic</li>
-                    <li>headline</li>
-                </ul>
-                <ul>
-                    <li>pic</li>
-                    <li>headline</li>
-                </ul>
-                <ul>
-                    <li>pic</li>
-                    <li>headline dsadasds</li>
-                </ul>
-            </div>
+        	<div class="slider"></div>
         </div>
+        <h3>asia</h3>
         <div id="asia" class="category">
-        	<h3>Asia</h3>
-        	<div class="slider">
-                <ul>
-                    <li>pic</li>
-                    <li>headline</li>
-                </ul>
-                <ul>
-                    <li>pic</li>
-                    <li>headline</li>
-                </ul>
-                <ul>
-                    <li>pic</li>
-                    <li>headline</li>
-                </ul>
-                <ul>
-                    <li>pic</li>
-                    <li>headline</li>
-                </ul>
-                <ul>
-                    <li>pic</li>
-                    <li>headline</li>
-                </ul>
-                <ul>
-                    <li>pic</li>
-                    <li>headline</li>
-                </ul>
-                <ul>
-                    <li>pic</li>
-                    <li>headline dsadasds</li>
-                </ul>
-            </div>
+        	<div class="slider"></div>
         </div>
-        <div id="entertainment" class="category">
-        	<h3>Entertainment</h3>
-        	<div class="slider">
-                <ul>
-                    <li>pic</li>
-                    <li>headline</li>
-                </ul>
-                <ul>
-                    <li>pic</li>
-                    <li>headline</li>
-                </ul>
-                <ul>
-                    <li>pic</li>
-                    <li>headline</li>
-                </ul>
-                <ul>
-                    <li>pic</li>
-                    <li>headline</li>
-                </ul>
-                <ul>
-                    <li>pic</li>
-                    <li>headline</li>
-                </ul>
-                <ul>
-                    <li>pic</li>
-                    <li>headline</li>
-                </ul>
-                <ul>
-                    <li>pic</li>
-                    <li>headline dsadasds</li>
-                </ul>
-            </div>
+        <h3>technology</h3>
+        <div id="technology" class="category">
+        	<div class="slider"></div>
         </div>
-        <div id="sport" class="category">
-        	<h3>Sport</h3>
-        	<div class="slider">
-                <ul>
-                    <li>pic</li>
-                    <li>headline</li>
-                </ul>
-                <ul>
-                    <li>pic</li>
-                    <li>headline</li>
-                </ul>
-                <ul>
-                    <li>pic</li>
-                    <li>headline</li>
-                </ul>
-                <ul>
-                    <li>pic</li>
-                    <li>headline</li>
-                </ul>
-                <ul>
-                    <li>pic</li>
-                    <li>headline</li>
-                </ul>
-                <ul>
-                    <li>pic</li>
-                    <li>headline</li>
-                </ul>
-                <ul>
-                    <li>pic</li>
-                    <li>headline dsadasds</li>
-                </ul>
-            </div>
+        <h3>europe</h3>
+        <div id="europe" class="category">
+        	<div class="slider"></div>
         </div>
-    </div>
+        <h3>arts &amp; entertainment</h3>
+        <div id="arts_entertainment" class="category">
+        	<div class="slider"></div>
+        </div>
+        <h3>middle east</h3>
+        <div id="middle_east" class="category">
+        	<div class="slider"></div>
+        </div>
+    </div>    
+    
     <div id="nowReading" class="panel">
     	<h3>Headline</h3>
-        <div class="storyContent">
-        	<p>para 1para 1para 1para 1para 1para 1para 1para 1para 1para 1para 1para 1para 1para 1para 1para 1para 1para 1para 1para 1para 1para 1para 1para 1para 1para 1para 1para 1para 1para 1para 1para 1para 1para 1para 1para 1para 1para 1para 1para 1para 1para 1para 1para 1para 1para 1para 1para 1para 1para 1para 1para 1para 1para 1para 1para 1para 1para 1para 1para 1para 1para 1para 1para 1para 1para 1para 1para 1para 1para 1para 1para 1para 1para 1para 1para 1para 1para 1para 1para 1para 1para 1para 1para 1para 1para 1para 1para 1para 1para 1para 1para 1para 1para 1para 1para 1para 1para 1para 1para 1para 1para 1para 1para 1para 1para 1para 1para 1para 1para 1para 1v</p>
-            <p>para 2para 2para 2para 2para 2para 2para 2para 2para 2para 2para 2para 2para 2para 2para 2para 2para 2para 2para 2para 2para 2para 2para 2para 2para 2para 2para 2para 2para 2para 2para 2para 2para 2para 2para 2para 2para 2para 2para 2para 2para 2para 2para 2para 2para 2para 2para 2para 2para 2para 2para 2para 2para 2para 2para 2para 2para 2para 2para 2para 2para 2para 2para 2para 2para 2para 2para 2para 2para 2para 2para 2para 2para 2para 2para 2para 2para 2para 2para 2para 2para 2para 2para 2para 2para 2para 2para 2para 2para 2para 2para 2para 2para 2para 2para 2para 2para 2para 2para 2para 2para 2para 2para 2para 2para 2para 2para 2para 2para 2para 2para 2para 2para 2para 2para 2para 2para 2para 2para 2para 2para 2para 2para 2para 2para 2para 2para 2para 2para 2para 2para 2para 2para 2para 2para 2para 2para 2para 2para 2para 2para 2para 2para 2para 2para 2para 2para 2para 2para 2para 2para 2para 2para 2para 2para 2para 2para 2para 2para 2para 2para 2para 2para 2para 2para 2para 2para 2para 2para 2para 2para 2para 2para 2para 2para 2para 2para 2para 2para 2para 2para 2para 2para 2para 2para 2para 2para 2para 2para 2para 2para 2para 2para 2para 2para 2para 2para 2para 2para 2para 2para 2para 2para 2para 2para 2para 2para 2para 2para 2</p>
-            <p>para 3para 3para 3para 3para 3para 3para 3para 3para 3para 3para 3para 3para 3para 3para 3para 3para 3para 3para 3para 3para 3para 3para 3para 3para 3para 3para 3para 3para 3para 3para 3para 3para 3para 3para 3para 3para 3para 3para 3para 3para 3para 3para 3para 3para 3para 3para 3para 3para 3para 3para 3para 3para 3para 3para 3para 3para 3para 3para 3para 3para 3para 3para 3para 3para 3para 3para 3para 3para 3para 3para 3para 3para 3para 3para 3para 3para 3para 3para 3para 3para 3para 3para 3para 3para 3para 3para 3para 3para 3para 3para 3para 3para 3para 3para 3para 3para 3para 3para 3para 3para 3para 3para 3para 3para 3para 3para 3para 3para 3para 3para 3para 3para 3para 3para 3para 3para 3para 3para 3para 3para 3para 3para 3para 3para 3para 3para 3para 3para 3para 3para 3para 3para 3para 3para 3para 3para 3para 3para 3para 3</p>
-        </div>
+        <div class="storyContent"></div>
     </div>
 </section>
 
 <script src="js/pageEvents.js"></script>
-<script src="js/jquery.hoverIntent.minified.js"></script>
 </body>
 </html>
